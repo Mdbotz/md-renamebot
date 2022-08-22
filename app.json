@@ -25,7 +25,7 @@
       "required": true
     },
     "AUTH_CHANNEL": {
-      "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",",
+      "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
       "required": true
     },
     "OWNER_ID": {
