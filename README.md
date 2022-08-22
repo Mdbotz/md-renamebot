@@ -17,3 +17,16 @@ A ADVANCE RENAME BOT WITH CUSTOM CAPTION AND THUMBNAIL SUPPORT
 # DEPLOY TO HEROKU
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?)
+
+# FEATURES 
+
+- [x] Custom caption
+- [x] Custom thumbnail 
+- [x] Better speed
+- [x] Three upload mode
+- [x] Support 2 GB + Files (comming soon)
+
+# SUPPORT
+
+- [UPDATE CHANNEL](https://t.me/venoms)
+- [SUPPORT GROUP](https://t.me/mdbotz)
