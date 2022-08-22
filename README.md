@@ -14,6 +14,6 @@
 
 A ADVANCE RENAME BOT WITH CUSTOM CAPTION AND THUMBNAIL SUPPORT 
 
-#DEPLOY TO HEROKU
+# DEPLOY TO HEROKU
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?)
