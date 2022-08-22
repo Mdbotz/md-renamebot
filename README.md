@@ -26,7 +26,7 @@ A ADVANCE RENAME BOT WITH CUSTOM CAPTION AND THUMBNAIL SUPPORT
 - [x] Three upload mode
 - [x] Support 2 GB + Files (comming soon)
 
-# MANDATORY VARAIBLES
+# MANDATORY VARIABLES
 
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
 * `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
