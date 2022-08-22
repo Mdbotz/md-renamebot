@@ -26,6 +26,14 @@ A ADVANCE RENAME BOT WITH CUSTOM CAPTION AND THUMBNAIL SUPPORT
 - [x] Three upload mode
 - [x] Support 2 GB + Files (comming soon)
 
+# MANDATORY VARAIBLES
+
+* `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
+* `API_ID`: Get this value from [telegram.org](https://my.telegram.org/apps)
+* `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
+* `OWNER_ID`: Username or ID of the bot owner.
+* `DATABASE_URI`: MONGODB URI. Get this value from [mongoDB](https://www.mongodb.com)
+
 # SUPPORT
 
 - [UPDATE CHANNEL](https://t.me/venoms)
