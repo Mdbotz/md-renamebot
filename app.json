@@ -1,5 +1,6 @@
 {
   "name": "md-renamebot",
+  "stack": "container",
   "description": "A simple rename bot with many features",
   "keywords": [
     "telegram",
