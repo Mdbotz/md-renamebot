@@ -85,7 +85,7 @@ async def cb_handler(client: Client , query: CallbackQuery):
             ]]
         ))
         
-    elif data == "owners_cmd":
+    elif data == "owner_cmd":
         await query.message.edit_text(
             text=Translation.OWNER_COMMANDS_TXT,
             reply_markup=InlineKeyboardMarkup(
@@ -99,6 +99,8 @@ async def cb_handler(client: Client , query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup(
             [[
+              InlineKeyboardButton('📃 Source code', url='https://github.com/Mdbotz/md-renamebot')
+            ],[
               InlineKeyboardButton('Back', callback_data = "help"),
             ]]
         ))
