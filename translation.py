@@ -31,12 +31,13 @@ class Translation(object):
 """ 
     OWNER_COMMANDS_TXT = """
 <b><i><u>👨 OWNER COMMANDS:</u>
+
 • Following commands only can use bot owner.
 
 ➢ /ban - To ban a user 
 ➢ /unban - To unban a user 
 ➢ /stats - To get bot users stats
-➢ /broadcast - To broadcast messages to users</i>
+➢ /broadcast - To broadcast messages to users</i></b>
 """
     ABOUT_TXT = """
 ╔════❰ RENAME BOT ❱═❍⊱❁۪۪
