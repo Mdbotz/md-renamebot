@@ -36,7 +36,7 @@ class Translation(object):
 ➢ /ban - To ban a user 
 ➢ /unban - To unban a user 
 ➢ /stats - To get bot users stats
-➢ /broadcast - To broadcast messages</i>
+➢ /broadcast - To broadcast messages to users</i>
 """
     ABOUT_TXT = """
 ╔════❰ RENAME BOT ❱═❍⊱❁۪۪
