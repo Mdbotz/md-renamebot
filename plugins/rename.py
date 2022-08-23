@@ -42,7 +42,8 @@ async def rename_doc(bot, message):
     await sts.edit_text(Translation.DOWNLOAD_SUCCESS_TXT)
     await sts.edit_text(Translation.UPLOAD_START_TXT)
     thumbnail = await db.get_thumbnail(message.from_user.id)
-    thumbnail = await bot.download_media(thumbnail)
+    if thumbnail:
+       thumbnail = await bot.download_media(thumbnail)
     c_time = time.time()
     upload_mode = await get_upload_mode(reply)
     upload_as = message.reply_document if upload_mode == "document" else message.reply_video if upload_mode == "video" else message.reply_audio
