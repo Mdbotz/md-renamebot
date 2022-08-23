@@ -27,7 +27,7 @@
     },
     "AUTH_CHANNEL": {
       "description": "ID of channel.Make sure bot is admin in this channel. Without subscribing this channel users cannot use bot.",
-      "required": true
+      "required": false
     },
     "OWNER_ID": {
       "description": "ID or Username of the Bot Owner",
