@@ -34,7 +34,7 @@ async def ban(bot, message):
     user_id = split[1]
     if len(split) > 2:
        reason = split[3]
-    if user_id.is_digit():
+    if user_id.isnumeric():
        user_id = int(user_id)
     try:
        user = await bot.get_users(user_id)
@@ -51,7 +51,7 @@ async def unban(bot, message):
     if len(message.command) < 2:
        return await message.reply("Give me a user id") 
     user_id = message.text.split()[1]
-    if user_id.is_digit():
+    if user_id.isnumeric():
       user_id = int(user_id)
     try:
       user = await bot.get_users(user_id)
