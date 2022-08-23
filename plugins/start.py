@@ -17,10 +17,10 @@ async def start(bot, message):
              [[
                InlineKeyboardButton("♦️ Help", callback_data = "help")
              ],[
-               InlineKeyboardButton('📢 Update Channel', url='https://t.me/Md_bOTs'),
-               InlineKeyboardButton('♻️ Suppot Group', url='https://t.me/Md_bOTs')
+               InlineKeyboardButton('📢 Update Channel', url='https://t.me/venombotupdates'),
+               InlineKeyboardButton('♻️ Suppot Group', url='https://t.me/venombotsupport')
              ],[
-                InlineKeyboardButton('📃 Source code', url='https://github.com/hockbhmv/FileRenameBot')
+                InlineKeyboardButton('📃 Source code', url='https://github.com/Mdbotz/md-renamebot')
              ]]
    ))
                             
