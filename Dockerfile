@@ -8,4 +8,4 @@ RUN cd /
 RUN pip3 install -U pip && pip3 install -U -r requirements.txt
 RUN mkdir /md-renamebot
 WORKDIR /md-renamebot
-CMD python bot.py
+CMD python3 bot.py
