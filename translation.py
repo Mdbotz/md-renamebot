@@ -29,6 +29,15 @@ class Translation(object):
 ➻ Available three upload mode  
 ➻ support broadcast</i></b>
 """ 
+    OWNER_COMMANDS_TXT = """
+<b><i><u>👨 OWNER COMMANDS:</u>
+• Following commands only can use bot owner.
+
+➢ /ban - To ban a user 
+➢ /unban - To unban a user 
+➢ /stats - To get bot users stats
+➢ /broadcast - To broadcast messages</i>
+"""
     ABOUT_TXT = """
 ╔════❰ RENAME BOT ❱═❍⊱❁۪۪
 ║╭━━━━━━━━━━━━━━━➣
@@ -41,6 +50,7 @@ class Translation(object):
 ║╰━━━━━━━━━━━━━━━➣
 ╚══════════════════❍⊱❁۪۪
 """
+    
     THUMBNAIL_TXT = """
 <b>🖼️ CUSTOM THUMBNAIL</b>
 you can add custom thumbnail simply by sending a photo to me 
