@@ -5,7 +5,7 @@ from pyrogram import Client, filters
 from pyrogram.errors import ChatAdminRequired
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-@Client.on_message(filters.private & is_not_subscribed)
+@Client.on_message(filters.private & filter.is_not_subscribed)
 async def force_sub(bot, message):
     try:
        invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL))
