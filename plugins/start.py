@@ -41,7 +41,17 @@ async def settings(bot, message):
     await message.reply_text(
          text=Translation.SETTINGS_TXT,
          reply_markup=InlineKeyboardMarkup(button))
-      
+
+@Client.on_message(filters.command('stats') & filters.user(Config.OWNER_ID))
+async def stats(bot, message):
+    user_id = message.from_user.id
+    msg = await message.reply_text("Fetching...")
+    total, banned = await db.total_users_count() 
+    await msg.edit_text(
+       f"<b>• Total users:</b> `{total}`\n"
+       f"<b>• Banned users:</b> `{banned}`"
+    )
+   
 @Client.on_callback_query()
 async def cb_handler(client: Client , query: CallbackQuery):
     data = query.data
