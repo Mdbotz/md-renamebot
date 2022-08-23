@@ -1,5 +1,5 @@
 echo "Cloning Repository"
-git clone https://github.com/Mdbotz/md-renamebot -b $BRANCH /EvaMaria
+git clone https://github.com/Mdbotz/md-renamebot -b $BRANCH /md-renamebot
 cd /md-renamebot 
 echo "installing requirements"
 pip3 install -U -r requirements.txt
