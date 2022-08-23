@@ -54,15 +54,18 @@ class Translation(object):
     
     THUMBNAIL_TXT = """
 <b>🖼️ CUSTOM THUMBNAIL</b>
+
 you can add custom thumbnail simply by sending a photo to me 
 """
     CUSTOM_CAPTION_TXT = """
 <b>📝 CUSTOM CAPTION</b>
+
 ➢ /addcaption <your caption> - To add your custom caption 
+
 <b>AVAILABLE FILLINGS:</b>
-- `{filename}` - new file name
-- `{size}` - size of the media
-- `{duration}` - duration of the media
+• `{filename}` - new file name
+• `{size}` - size of the media
+• `{duration}` - duration of the media
 """
     
     SETTINGS_TXT = "<b><u>⚙️ SETTINGS</u>\nConfigure your settings using this buttons</b>"
