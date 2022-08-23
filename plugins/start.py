@@ -2,7 +2,7 @@ import os
 import time
 from .database import db
 from translation import Translation
-from utils import __version__ as bot_version
+from .utils import __version__ as bot_version
 from pyrogram import Client, filters, enums, __version__
 from pyrogram.types import ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
