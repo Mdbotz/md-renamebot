@@ -1,6 +1,7 @@
 import os
 import time
-from .database import db
+from .database import db 
+from config import Config
 from translation import Translation
 from .utils import __version__ as bot_version
 from pyrogram import Client, filters, enums, __version__
