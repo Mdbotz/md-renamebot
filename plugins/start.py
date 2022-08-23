@@ -2,7 +2,8 @@ import os
 import time
 from .database import db
 from translation import Translation
-from pyrogram import Client, filters, enums
+from utils import __version__ as bot_version
+from pyrogram import Client, filters, enums, __version__
 from pyrogram.types import ReplyKeyboardMarkup, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
 @Client.on_message(filters.command("start"))
@@ -82,7 +83,8 @@ async def cb_handler(client: Client , query: CallbackQuery):
      
     elif data == "about":
         await query.message.edit_text(
-            text=Translation.ABOUT_TXT.format(bot.me.first_name, bot.me.username)
+            text=Translation.ABOUT_TXT.format(bot.me.first_name, bot.me.username,
+                                             __version, bot_version)
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup(
             [[
