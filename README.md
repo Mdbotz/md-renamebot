@@ -22,7 +22,10 @@ A ADVANCE RENAME BOT WITH CUSTOM CAPTION AND THUMBNAIL SUPPORT
 
 - [x] Custom caption
 - [x] Custom thumbnail 
-- [x] Better speed
+- [x] Better speed 
+- [x] Broadcast
+- [x] stats, ban 
+- [x] Force subscribe
 - [x] Three upload mode
 - [x] Support 2 GB + Files (comming soon)
 
