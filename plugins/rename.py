@@ -35,7 +35,7 @@ async def rename_doc(bot, message):
                 progress_args=(Translation.DOWNLOAD_START_TXT, sts, c_time)
        )
     except Exception as e:
-      logging.exception(e)
+      bot.log.exception(e)
       return await sts.edit_text("unable to download media !")
     if _download_location is None:
        return await sts.edit("Download failed !")
@@ -86,7 +86,7 @@ async def rename_doc(bot, message):
              duration=duration,
              performer=author) 
     except Exception as e:
-        logging.exception(e)
+        bot.log.exception(e)
         return await sts.edit("process failed !")
     try:
        await msg.edit_caption(caption.format(filename=file_name, duration=duration, size=humanbytes(file_size)))
