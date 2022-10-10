@@ -2,8 +2,7 @@ from config import Config
 from pyrogram.types import Message 
 from pyrogram import filters, enums 
 from pyrogram.errors import UserNotParticipant
-
-
+ 
 async def is_subscribed(_, bot, message: Message):
     channel = Config.AUTH_CHANNEL
     if not channel:
@@ -13,7 +12,8 @@ async def is_subscribed(_, bot, message: Message):
     except UserNotParticipant:
        pass 
     except Exception as e:
-       logger.exception(e)
+       bot.log.exception(e)
+       return False
     else:
        if user.status != enums.ChatMemberStatus.BANNED:
           return False 
