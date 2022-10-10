@@ -23,6 +23,7 @@ class Bot(Client):
       
    async def start(self):
       await super().start()
+      self.log = logging
       if not os.path.isdir(Config.DOWNLOAD_LOCATION):
         os.makedirs(Config.DOWNLOAD_LOCATION)
       banned_users = await db.get_banned_users()
