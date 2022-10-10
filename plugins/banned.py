@@ -8,9 +8,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @Client.on_message(filters.private & filter.is_not_subscribed)
 async def force_sub(bot, message):
     try:
-       invite_link = await client.create_chat_invite_link(int(AUTH_CHANNEL))
+       invite_link = await bot.create_chat_invite_link(int(AUTH_CHANNEL))
     except ChatAdminRequired:
-       print("Make sure Bot is admin in Forcesub channel")
+       bot.log.exception("Make sure Bot is admin in Forcesub channel")
        Config.AUTH_CHANNEL = None 
        return
     button = [[
